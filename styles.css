@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 nav ul {
@@ -9,6 +10,7 @@ nav ul {
     justify-content: flex-end;
     list-style: none;
     background-color: #000;
+    margin: 0;
 }
 
 .nav__item {
@@ -28,13 +30,19 @@ padding: 10px;
 }
 
 .sign {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 70vw;
     color: #FFF;
     margin: 0 auto;
     margin-top: 5em;
     position: relative;
     padding: 1em;
+}
+
+.tagline {
+    font-family: "Brush Script MT";
+    font-size: 3rem;
+    text-align: center;
 }
 
 .testimonials {
@@ -74,6 +82,7 @@ padding: 10px;
 
 .menu__list__item__description {
     font-weight: 300;
+    text-align: center;
 }
 
 .restaurant-info {
@@ -84,6 +93,29 @@ padding: 10px;
     color: #FFF;
 }
 
-.restaurant-info address, p {
+.restaurant-info address, .restaurant-info p {
     text-align: left;
+}
+
+.Contact {
+	padding: 3em;
+	text-align: initial;
+}
+
+.Contact input,
+.Contact textarea {
+	border: 3px solid black;
+	margin: .5em;
+}
+
+.Contact div {
+	margin: 0 auto;
+	width: 40%;
+}
+
+
+footer {
+	padding: 1em;
+	font-size: 2em;
+	text-transform: uppercase;
 }
