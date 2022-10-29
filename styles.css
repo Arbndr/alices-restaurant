@@ -36,3 +36,22 @@ padding: 10px;
     position: relative;
     padding: 1em;
 }
+
+.testimonials {
+    background-color: #000;
+    color: #FFF;
+    
+}
+
+.testimonials__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.testimonials__photo {
+    width: 7rem;
+    border-radius: 50%;
+}
